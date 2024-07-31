@@ -1,0 +1,40 @@
+/* Bas de page / Footer */
+
+.footer{
+    background-color: transparent;
+    background-image: linear-gradient(rgba(148, 170, 110), rgb(255, 255, 255));
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+   /* display:grid;
+    width: 100%auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;*/
+    vertical-align: bottom;
+
+}
+
+.footer_links{
+    display: inline-block;
+    margin-right: 200px;
+    text-decoration: none;
+
+}
+
+.f_links{
+    font-size: 15px;
+}
+
+.f_links:hover{
+    color:rgb(118, 165, 48);
+}
+
+.footer_hr{
+    width: 800px;
+    border-width: 1px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /*background-color: rgba(26, 63, 11, 0.932);*/
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    /*height: 600px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*rubrique de navigation*/
+
+.nav{
+    /*background-color: rgba(148, 170, 110, 0.89);*/
+    background-color: rgb(148, 170, 110);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 10px;*/
+}
+img{
+    width: 100px;
+}
+
+.navList{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 100px;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline solid black;
+    color: rgba(195, 13, 219, 0.192);
+    
+}
+
+
+/*Rubrique page d'accueil */
+
+
+#Homepage{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items:flex-start;*/
+    margin-left: 40px;
+    margin-top: 110px;
+    
+}
+
+.Homepage_content{
+    width: 50%;
+    height: 100%;
+}
+
+.pic1{
+   /* box-sizing: inherit;*/
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    /*padding-left: 50px;*/
+    
+}
+
+
+.first_pic{
+    width: 50%;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    width: inherit;
+    /*width: 450px;*/
+    margin-top: 100px;
+}
+
+
+.homepage_text{
+    text-align: justify;
+    font-size: 30px;
+    color: rgba(65, 87, 27, 0.884)
+}
+
+.btn1{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(141, 79, 133, 0.685) ;
+    cursor: pointer;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.486);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn1:hover {
+    background-color: rgba(141, 79, 133, 0.575);
+}
+
+.btn1:active{
+    width: 355px;
+    height: 55px;
+}
+
+/*sous- rubrique des meilleures ventes en page d'accueil*/
+
+.container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 60px;
+}
+
+.Main_content{
+    background-color: beige;
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.content_title{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.teas_images{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-left: 10px;
+
+}
+
+.meilleures_ventes{
+    width: 180px;
+    height: 300px;
+    margin-right: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    transition: box-shadow 0.5s, padding 0.8s;
+}
+
+.meilleures_ventes:hover{
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.5);
+    padding: 12px 12px 52px 12px;
+}
+
+h4{
+    text-align: center;
+}
+
+.origine{
+    font-size: 16px;
+    color: rgba(119, 82, 82);
+    text-align: center;
+}
+
+.btn2{
+    border:none;
+    color: white;
+    background-color: rgb(118, 165, 48);
+    width: 140px;
+    height: 35px;
+    margin-left: 20px;
+    /*border-radius: 20px;*/
+    font-size: 15px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+.btn2:hover{
+    border-color: rgb(118, 165, 48);
+    color: rgb(118, 165, 48);
+    background-color: white;
+    opacity: 0.7;
+}
+
+.btn2:active{
+    color: white;
+    background-color: rgb(119, 82, 82);
+    
+}
+
+.btn3{
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 39.5%;
+    border-radius: 50px;
+    background-color: rgba(141, 79, 133, 0.685) ;
+    cursor: pointer;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.486);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn3:hover {
+    background-color: rgba(141, 79, 133, 0.575);
+}
+.btn3:active{
+    width: 155px;
+    height: 45px;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    background-color: rgba(119, 82, 82);
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

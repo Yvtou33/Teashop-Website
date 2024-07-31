@@ -1,0 +1,21 @@
+/*Rubrique à propos / about */
+
+.div_title {
+    display: flex;
+    flex: 1;
+    /*align-items: center;*/
+    background-color: blue;
+    width: 100%;
+}
+.about_title {
+    text-align: center;
+    width: inherit;
+    padding-top: 0;
+}
+
+.context_text{
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-left: 30%;
+}

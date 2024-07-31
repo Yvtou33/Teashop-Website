@@ -1,0 +1,63 @@
+/*Rubrique contact*/
+
+.question_contact{
+    text-align: right;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 240px;
+    margin-top: 110px;
+}
+
+.Form_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_pic{
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding-bottom: 500px;
+}
+
+input{
+    display: block;
+    width: 200px;
+    height: 15px;
+    padding: 8px 10px 8px 3px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 450px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.submit_btn{
+    display: block;
+    width: 350px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: rgba(141, 79, 133, 0.685) ;
+    cursor: pointer;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.486);
+    transition: width 0.6s, height 0.6s;
+}
+
+.submit_btn{
+    background-color: rgba(141, 79, 133, 0.575);
+}
+.submit_btn{
+    width: 355px;
+    height: 45px;
+}
